@@ -1,0 +1,32 @@
+[
+    {
+        "name": "BK1031 – Webisite",
+        "url": "https://bk1031.dev",
+        "email": "component+46238149-9d5b-4758-b30c-1183f514b378@notifications.statuspage.io"
+    },
+    {
+        "name": "BK1031 – Status",
+        "url": "https://status.bk1031.dev",
+        "email": "component+031f7c18-3bd7-4c51-baa8-2647abd7b6d8@notifications.statuspage.io"
+    },
+    {
+        "name": "myDECA – Website",
+        "url": "https://deca.bk1031.dev",
+        "email": "component+5ab273ed-d339-4e48-991a-8b1c02321587@notifications.statuspage.io"
+    },
+    {
+        "name": "myDECA – Authentication",
+        "url": "https://mydeca-app.firebaseio.com/testing.json",
+        "email": "component+18573a7a-eaed-4fb9-8316-ab48668ebf2b@notifications.statuspage.io"
+    },
+    {
+        "name": "myDECA – Database",
+        "url": "https://mydeca-app.firebaseio.com/testing.json",
+        "email": "component+ee66c9c8-ebc0-4107-a799-7ca48d1f0100@notifications.statuspage.io"
+    },
+    {
+        "name": "myDECA – Push Notifications",
+        "url": "http://192.168.1.62:5000/",
+        "email": "component+02101a3a-64f0-4d51-8cf1-ee1aa18aac1c@notifications.statuspage.io"
+    }
+]
