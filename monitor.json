@@ -6,8 +6,8 @@
     },
     {
         "name": "BK1031 – Status",
-        "url": "https://status.bk1031.dev",
-        "email": "component+031f7c18-3bd7-4c51-baa8-2647abd7b6d8@notifications.statuspage.io"
+        "url": "http://192.168.1.62:3000/",
+        "email": "component+t757gbtk74t8@notifications.statuspage.io"
     },
     {
         "name": "myDECA – Website",
