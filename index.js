@@ -59,7 +59,7 @@ client.on("message", (message) => {
   }
 });
 
-cron.schedule('*/1 * * * *', () => {
+cron.schedule('*/5 * * * *', () => {
   console.log('running status task 5 minutes');
   client.channels.cache.get('692986198112600094').send(new Discord.MessageEmbed()
     .setAuthor("Running status update")
@@ -77,8 +77,9 @@ cron.schedule('*/1 * * * *', () => {
             .setColor('#36ff79')
           );
           const mailOptions = {
-            to: '' + monitor.email + ', bharat1031@gmail.com',
-            subject: 'UP',
+            to: monitor.email + ',' + botconfig.email,
+            replyTo: monitor.email,
+            subject: 'UP - ' + Date.now(),
             text: 'Service is UP, msg sent from BK1031 Status Bot'
           };
           transporter.sendMail(mailOptions, function(error, info) {
@@ -97,8 +98,9 @@ cron.schedule('*/1 * * * *', () => {
             .setColor('#ff3636')
           );
           const mailOptions = {
-            to: '' + monitor.email + ', bharat1031@gmail.com',
-            subject: 'DOWN',
+            to: monitor.email + ',' + botconfig.email,
+            replyTo: monitor.email,
+            subject: 'DOWN - ' + Date.now(),
             text: 'Service is DOWN, msg sent from BK1031 Status Bot'
           };
           transporter.sendMail(mailOptions, function(error, info) {
@@ -117,8 +119,9 @@ cron.schedule('*/1 * * * *', () => {
           .setColor('#ff3636')
         );
         const mailOptions = {
-          to: '' + monitor.email + ', bharat1031@gmail.com',
-          subject: 'DOWN',
+          to: monitor.email + ',' + botconfig.email,
+          replyTo: monitor.email,
+          subject: 'DOWN - ' + Date.now(),
           text: 'Service is DOWN, msg sent from BK1031 Status Bot'
         };
         transporter.sendMail(mailOptions, function(error, info) {
