@@ -44,7 +44,7 @@ client.on("ready", () => {
   );
 });
 
-cron.schedule('*/10 * * * * *', () => {
+cron.schedule('*/5 * * * *', () => {
   console.log('running status task 5 minutes');
   client.channels.cache.get('692986198112600094').send(new Discord.MessageEmbed()
     .setAuthor("Running status update")
