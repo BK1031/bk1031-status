@@ -1,32 +1,47 @@
 [
     {
         "name": "BK1031 – Webisite",
-        "url": "https://bk1031.dev",
-        "email": "component+46238149-9d5b-4758-b30c-1183f514b378@notifications.statuspage.io"
+        "url": "192.168.1.62:80",
+        "email": "component+54fbb91a-81b2-4c44-9b88-61ecd64ed60f@notifications.statuspage.io"
     },
     {
         "name": "BK1031 – Status",
-        "url": "http://192.168.1.62:3000/",
-        "email": "component+t757gbtk74t8@notifications.statuspage.io"
+        "url": "192.168.1.62:3000",
+        "email": "component+36bb3fa3-f078-4aa4-b935-13f6ea275f8c@notifications.statuspage.io"
     },
-    {
+    {   
         "name": "myDECA – Website",
-        "url": "https://deca.bk1031.dev",
-        "email": "component+5ab273ed-d339-4e48-991a-8b1c02321587@notifications.statuspage.io"
+        "url": "192.168.1.62:80",
+        "email": "component+ef9ac994-f159-4aab-ab44-ad6d59d0f4b2@notifications.statuspage.io"
     },
     {
         "name": "myDECA – Authentication",
-        "url": "https://mydeca-app.firebaseio.com/testing.json",
-        "email": "component+18573a7a-eaed-4fb9-8316-ab48668ebf2b@notifications.statuspage.io"
+        "url": "mydeca-app.firebaseio.com:80",
+        "email": "component+965845aa-1616-4857-bcad-a8f1717bf5db@notifications.statuspage.io"
     },
     {
         "name": "myDECA – Database",
-        "url": "https://mydeca-app.firebaseio.com/testing.json",
-        "email": "component+ee66c9c8-ebc0-4107-a799-7ca48d1f0100@notifications.statuspage.io"
+        "url": "mydeca-app.firebaseio.com:80",
+        "email": "component+8df9ced6-9fe6-46dd-88a7-0bfcda382f8b@notifications.statuspage.io"
     },
     {
         "name": "myDECA – Push Notifications",
-        "url": "http://192.168.1.62:5000/",
-        "email": "component+02101a3a-64f0-4d51-8cf1-ee1aa18aac1c@notifications.statuspage.io"
+        "url": "192.168.1.62:5000",
+        "email": "component+f3c2ece8-eb39-48a8-a334-e8d83a7699b6@notifications.statuspage.io"
+    },
+    {
+        "name": "Game Servers – Vanilla Minecraft SMP",
+        "url": "192.168.1.62:25565",
+        "email": "component+543c3a07-51bb-4531-bf99-dd9f92a7da20@notifications.statuspage.io"
+    },
+    {
+        "name": "Game Servers – FTB Revelation Minecraft SMP",
+        "url": "192.168.1.62:25566",
+        "email": "component+e9de3bd4-d2df-45fc-aaff-1273f0feb724@notifications.statuspage.io"
+    },
+    {
+        "name": "Game Servers – CS:GO Scrim Server",
+        "url": "192.168.1.65:27015",
+        "email": "component+26e5ec4a-c472-437f-acc4-3d4249c016b1@notifications.statuspage.io"
     }
 ]
