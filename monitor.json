@@ -40,6 +40,11 @@
         "email": "component+e9de3bd4-d2df-45fc-aaff-1273f0feb724@notifications.statuspage.io"
     },
     {
+        "name": "Game Servers – Terraria Server",
+        "url": "192.168.1.62:7777",
+        "email": "component+5490fd5a-fc77-44ae-8b9d-b744d92a282d@notifications.statuspage.io"
+    },
+    {
         "name": "Game Servers – CS:GO Scrim Server",
         "url": "192.168.1.65:27015",
         "email": "component+26e5ec4a-c472-437f-acc4-3d4249c016b1@notifications.statuspage.io"
